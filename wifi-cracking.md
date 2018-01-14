@@ -44,7 +44,7 @@ airmon-ng start wlan0
 使用你的监测接口开始监听附近的 [802.11 Beacon 帧](https://en.wikipedia.org/wiki/Beacon_frame)广播：
 
 ```bash
-airodump-ng mon0
+airodump-ng wlan0mon
 ```
 
 你应该可以看到类似于下面的输出。
